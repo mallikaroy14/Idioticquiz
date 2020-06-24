@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    xmlns:android="http://schemas.android.com/apk/res/android">>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingBottom="170sp"
+        android:background="#141514">
+    <TextView
+        android:id="@+id/over"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="casual"
+        android:gravity="center"
+        android:paddingTop="30dp"
+        android:text="GAME OVER"
+        android:textColor="#f10616"
+        android:textSize="60dp"
+
+
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="YOUR SCORE:"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:layout_marginTop="40dp"
+        android:textColor="#fff"
+        android:id="@+id/score"
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="THANK U"
+        android:textStyle="bold"
+        android:textSize="49dp"
+        android:textColor="#fff"
+        android:gravity="center"
+        android:layout_marginTop="130dp"
+
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:paddingLeft="10sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#111111"
+            android:gravity="center"
+            android:onClick="next"
+            android:text="play  again"
+            android:textColor="#d6040e"
+            android:textSize="30dp"
+            android:textStyle="italic" />
+
+        <Button
+            android:id="@+id/exitbn"
+            android:layout_width="211dp"
+            android:layout_height="wrap_content"
+            android:background="#111111"
+            android:gravity="center"
+            android:onClick="exit"
+            android:text="EXIT"
+            android:textColor="#d6040e"
+            android:textSize="30dp"
+            android:textStyle="italic" />
+    </LinearLayout>
+
+
+</LinearLayout>
+    </RelativeLayout>
+</ScrollView>

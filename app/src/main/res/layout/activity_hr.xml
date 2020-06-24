@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:orientation="vertical"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="text"
+            android:id="@+id/t1"
+            android:textStyle="bold"
+            android:textSize="40dp"
+            android:gravity="center"/>
+
+        <ScrollView android:layout_height="match_parent"
+            android:layout_width="match_parent">
+
+            <LinearLayout android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                xmlns:android="http://schemas.android.com/apk/res/android">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="250sp"
+                    android:text="text"
+                    android:id="@+id/t2"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+                    android:gravity="center"
+                    />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/t2"
+                    android:id="@+id/bt"
+                    android:text="button"/>
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/bt"
+                    android:id="@+id/bt1"
+                    android:text="button"/>
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/bt1"
+                    android:id="@+id/bt2"
+                    android:text="button"/>
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/bt3"
+                    android:text="button"
+                    android:layout_below="@+id/bt2"/>
+
+
+
+            </LinearLayout>
+        </ScrollView>
+</RelativeLayout>

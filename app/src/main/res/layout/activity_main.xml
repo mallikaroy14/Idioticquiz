@@ -1,0 +1,96 @@
+<ScrollView android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<RelativeLayout
+    android:layout_gravity="bottom|fill"
+    android:gravity="fill"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#fc090a09"
+        android:orientation="vertical"
+
+
+        >
+
+        <ImageView
+            android:layout_marginTop="20sp"
+            android:layout_width="223sp"
+            android:layout_height="123sp"
+            android:layout_gravity="center"
+            android:padding="10sp"
+            app:srcCompat="@drawable/logo"
+
+            />
+        <Button
+            android:layout_marginTop="30sp"
+            android:paddingBottom="10sp"
+            android:layout_width="match_parent"
+            android:onClick="aptitude"
+            android:layout_height="wrap_content"
+            android:text="Aptitude"
+            android:textColor="#201e21"
+            android:textStyle="italic"
+            android:layout_marginBottom="20dp"
+            android:background="#f727a340"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:textSize="40dp"/>
+        <Button
+            android:padding="10sp"
+            android:onClick="reasoning"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Reasoning"
+            android:background="#d6ea4d1d"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:textSize="40dp"/>
+        <Button
+            android:paddingBottom="10sp"
+            android:onClick="technical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="technical"
+            android:background="#f7612ca7"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="20dp"
+            android:textSize="40dp"/>
+        <Button
+            android:paddingBottom="10sp"
+            android:onClick="mis"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="20dp"
+            android:text="miscellaneous"
+            android:background="#0f84f9"
+            android:textSize="40dp"/>
+
+        <Button
+            android:paddingBottom="70sp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_weight="0.43"
+            android:background="#439150"
+            android:onClick="hr"
+            android:text="Human Resources"
+            android:textColor="#fa0e0e0e"
+            android:textSize="35dp" />
+
+    </LinearLayout>
+</RelativeLayout>
+
+</ScrollView>
